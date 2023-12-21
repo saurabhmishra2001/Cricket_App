@@ -1,0 +1,65 @@
+.International {
+    color: #000;
+    font-family: Arimo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 145.455% */
+    overflow-y: auto;
+    overflow-x: auto;
+  
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .International::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .International {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+  
+  /* .league{
+      overflow-y: auto;
+      overflow-x: auto;
+      
+  } */
+  .imgName {
+    display: flex;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .img {
+    width: 24px;
+    height: 17.177px;
+    flex-shrink: 0;
+    margin-top: 5px;
+  }
+  
+  .name {
+    color: #000;
+    font-family: Arimo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5px;
+    gap: 8px;
+  
+  
+  }
+  
+  .text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }

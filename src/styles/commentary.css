@@ -1,0 +1,180 @@
+.BatsMan {
+    
+    display:flex;
+    padding: 10px 0;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    flex-direction: row;
+   
+  }
+
+  
+  .BatsMan th {
+    flex: 1;
+  }
+  
+  .scoreCardTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+  }
+  
+  .batter{
+    color: #000;
+text-align: left;
+font-family: Arimo;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+background-color:#F0ce8e;
+
+  }
+  .batterCard th{
+    border:none;
+    text-align: left;
+    padding: 10px;
+  }
+  .tabaledata td{
+    border:none;
+    text-align: left;
+    padding: 10px;
+  }
+  .bowler th{
+    border:none;
+    text-align: left;
+    padding: 10px;
+  }
+  .bowlerDetails td{
+    border:none;
+    text-align: left;
+    padding: 10px;
+  }
+
+
+  #battingteamheader {
+    color: white;
+    display:flex;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    flex-direction: row;
+    background-color:black;
+    width: 100%;
+    margin: 0%;
+
+}
+
+
+.tabaledata{
+  color: #000;
+font-family: Arimo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+flex: 1 0 0;
+line-height: 16px; 
+border:none;
+    text-align: left;
+    padding: 10px;
+ }
+ .bowler{
+
+padding: 10px 8px;
+align-items: left;
+gap: 10px;
+flex: 1 0 0;
+color: #000;
+text-align: center;
+font-family: Arimo;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+margin-top: px;
+background-color:#F0ce8e;
+text-align: left;
+ }
+
+.bowlerDetails{
+  color: #000;
+font-family: Arimo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+}
+.dataSlider{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 330px
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera
+.dataSlider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* .dataSlider { */
+/* -ms-overflow-style: none;  /* IE and Edge */
+/* scrollbar-width: none;  Firefox */
+
+
+.comOverNumber{
+  color: #000;
+font-family: Arimo;
+font-size: 14px;
+font-style: normal;
+font-weight: 550;
+line-height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.comTitle{
+  color: #000;
+  font-family: Arimo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 20px;
+text-align: left;
+}
+
+.comEvent{
+  color: #000;
+font-family: Arimo;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+}
+
+.comDiscription{
+  color: #000;
+  font-family: Arimo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+width: 100%;
+text-align: justify;
+
+}
+
+
+/* .scrollable-container{
+  height: 330px;
+  overflow: hidden;
+
+}
+ .scrollable-container.show-scrollbar{
+  overflow-y: auto;
+ } */
