@@ -1,0 +1,393 @@
+.liveMatch {
+    height: 100%;
+    padding: 0;
+    margin-top: 10px;
+  
+  }
+  
+  .league {
+  
+    float: left;
+    height: 200px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+  
+  }
+  
+  
+  .International {
+  
+    float: left;
+    height: 150px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
+  
+  
+  }
+  
+  .newsDiv {
+    background: #FFFFFF;
+    height: 405px;
+    /* width: 230px; */
+    padding: 5px;
+    border-radius: 2px;
+    /* margin-left: 5px; */
+    margin-top: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  
+  .upcoming {
+    background: #FFFFFF;
+    height: 195px;
+    width: 230px;
+    padding: 5px;
+    border-radius: 2px;
+    /* margin-left: 5px; */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+  }
+  
+  .today {
+    background: white;
+    float: center;
+    height: 405px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+  }
+  
+  .data {
+    width: 500px;
+    height: 90px;
+  }
+  
+  
+  
+  .keyText {
+    text-align: left;
+  }
+  
+  .leagueList {
+    list-style: none;
+    font-family: Arial;
+    font-style: normal;
+    text-align: left;
+  
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #000;
+  
+  }
+  
+  /* 
+  a:visited {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  .topText{
+    text-align: left;
+  }
+  .form-outline{
+    float: center;
+  } */
+  
+  /* For Match card */
+  
+  .MatchCard {
+    margin-top: 15px;
+    overflow-y: auto;
+    height: 325px;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .MatchCard::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .MatchCard {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  
+  .heading {
+  
+    color: #000;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: left;
+    margin-top: 10px;
+    font-style: bold;
+  
+  }
+  
+  .card {
+    margin-top: 5px;
+  }
+  
+  .venue {
+    color: #808080;
+    font-family: Arimo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 3px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .venue::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .venue {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  
+  .venue .status {
+    margin-left: 40 px;
+    right: 0;
+  }
+  
+  .team {
+    color: #333;
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    text-align: left;
+  }
+  
+  
+  .img1 {
+    width: 24px;
+    height: 17.598px;
+    margin-top: 4px;
+  
+  
+  }
+  
+  .img2 {
+    width: 24px;
+    height: 17.598px;
+    margin-top: 4px;
+  
+  }
+  
+  .team {
+    display: flex;
+    margin-left: 3px;
+    margin-bottom: 2px;
+  }
+  
+  .text {
+    margin-left: 10px;
+  }
+  
+  
+  
+  /* .live {
+    display: inline-flex;
+    padding: 4px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: wheat;
+    border: 1px solid #B3B3B3
+  }
+  
+  .liveText {
+    color: black;
+  
+    text-align: center;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .upcomingmatch {
+    display: inline-flex;
+    padding: 4px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    margin-left: 5px;
+    border: 1px solid #B3B3B3;
+  }
+  
+  .upcomingmatchText {
+    color: #000;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  
+  }
+  
+  .recent {
+    display: inline-flex;
+    padding: 4px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    margin-left: 5px;
+    border: 1px solid #B3B3B3;
+  }
+  
+  .recentText {
+    color: #000;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .navText li:hover {
+    background-color: #00f;
+  
+  
+  } */
+  
+  /* .navText li:visited{
+    background-color: #f08383;
+    color: #fff;
+  }
+  
+  .navText li:active {
+    background-color: #27044c;
+    color: #fff;
+  } */
+  
+  
+  
+  
+  
+  #form1 {
+    border: none;
+  }
+  
+  /* .internationalMatches{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+  } */
+  .league {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+  }
+  
+  
+  
+  
+  .venue span {
+    float: right;
+    margin-right: 30px;
+  
+  }
+  
+  .text span {
+    float: right;
+  
+  }
+  
+  .iningScore {
+    margin-left: 250px;
+  }
+  
+  
+  
+  /* For Recnt page */
+  
+  .ParentDiv {
+  
+    display: grid;
+  
+    grid-template-rows: repeat(2, 1fr);
+  
+    grid-template-columns: repeat(2, 1fr);
+  
+    gap: 10px;
+  
+  }
+  
+  .box {
+  
+    background-color: aqua;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  #boxid1,
+  #boxid3 {
+  
+    text-align: left;
+  
+  }
+  
+  #boxid2,
+  #boxid4 {
+  
+    text-align: right;
+  
+  }
+  
+  
+  .news-heading{
+    text-align: left;
+    color: #312C51;
+    margin-left: 5px;
+  }

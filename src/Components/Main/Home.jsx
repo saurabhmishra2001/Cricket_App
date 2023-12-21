@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/live.css"
 
 function Home() {
   return (
