@@ -1,0 +1,21 @@
+.news-context {
+  
+    color: #666;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.news-headline{
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 5px;
+
+}
+.news-image{
+  width: 100%;
+  padding-top: 5px;
+ margin-top: 10px;
+}
+.card-text{
+  text-align: justify;
+}

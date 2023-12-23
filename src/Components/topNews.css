@@ -1,0 +1,33 @@
+/* AutoScrollComponent.css */
+.auto-scroll-container {
+    height: 360px; /* Set the desired height for the container */
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  /* AutoScrollComponent.css */
+.auto-scroll-container {
+    overflow: hidden;
+  }
+
+  
+
+  
+  .image-section img {
+  align-items: center;
+
+
+
+  }
+  
+  .news-section {
+    
+   /* Adjust the margin as needed */
+    overflow: hidden; /* Ensure content does not overflow if long */
+    padding: 10px;
+    text-align: justify;
+    margin-left: 2px;
+    }
+  .news-hline{
+    font-weight: 400px;
+  }

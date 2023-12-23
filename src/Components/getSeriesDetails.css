@@ -1,0 +1,30 @@
+.ListOfNavs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+   
+  }
+  
+  .ListOfNavs li {
+    float: left;
+  }
+
+  .ListOfNavs li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    border:1px solid;
+    border-radius:14px;
+    margin-left:10px;
+  }
+  
+  
+  
+  .ListOfNavs li a:focus {
+    color: white;
+    background-color:#F0C38e;
+  }
