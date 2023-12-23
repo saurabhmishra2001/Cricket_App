@@ -2,9 +2,9 @@
 import { useState } from "react";
 import React from "react";
 import "../styles/seriesDetails.css";
-import Upcoming from "./MatchComponents/upcoming";
-import Recent from "./MatchComponents/Recent";
-import Live from "./MatchComponents/Live";
+import Upcoming from "./MatchComponent/Upcoming";
+import Recent from "./MatchComponent/Recent";
+import Live from "./MatchComponent/Live";
 import { Link } from "react-router-dom";
 import "./getSeriesDetails.css";
 
