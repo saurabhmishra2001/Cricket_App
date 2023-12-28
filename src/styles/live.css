@@ -60,16 +60,16 @@
     border-radius: 5%;
   }
   
-  .today {
+   .today {
     background: white;
     float: center;
-    height: 405px;
+    height: 100vh;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     border-radius: 2%;
-  }
+  } 
   
   .data {
     width: 500px;

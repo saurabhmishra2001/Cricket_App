@@ -13,7 +13,7 @@ function GetSeriesDeetails() {
 
   return (
     <>
-      <div className="today">
+      <div className="container">
         <ul className="ListOfNavs">
           <li className="live active">
             <Link
